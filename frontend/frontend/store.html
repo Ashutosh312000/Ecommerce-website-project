@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Project</title>
+    <link rel="stylesheet" href="ecom.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="./home.html">HOME</a></li>
+            <li><a href="store.html">STORE</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+           <button class="cart-holder">CART</button> <span id="cart-number">0</span>
+        </ul>
+        <h1>The Generics</h1>
+    </header>
+    <section id="cart">
+        <h2>CART</h2>
+        <button class="cancel">X</button>
+        <div class="cart-row cart-header">
+            <span class="cart-item cart-column">ITEM</span>
+            <span class="cart-price cart-column">PRICE</span>
+            <span class="cart-quantity cart-column">QUANTITY</span>
+        </div>
+        <div class="cartitems"></div>
+        <button class="purchase-btn" type="button">PURCHASE</button>
+        <div class="cart-total">
+            <span id="total">TOTAL  $</span>
+            <span id="totalprice">0</span>
+        </div>
+    </section>
+    <!-- <section id="music" class="container">
+        <h2>MUSIC</h2>
+        <div id="music-content" >
+            <div id="album1">
+                <h3>Album 1</h3>
+                <div class="image-container">
+                    <img src="./img/Album 1.png" alt="" class="prod-images">
+                </div>
+                <div class="prod-details">
+                    <span>$</span><span class="price">12.99</span>
+                    <button class="shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div id="album2">
+                <h3>Album 2</h3>
+                <div class="image-container">
+                    <img src="./img/Album 2.png" alt="" class="prod-images">
+                </div>
+                <div class="prod-details">
+                    <span>$</span><span class="price">14.99</span>
+                    <button class="shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div id="album3">
+                <h3>Album 3</h3>
+                <div class="image-container">
+                    <img src="./img/Album 3.png" alt="" class="prod-images">
+                </div>
+                <div class="prod-details">
+                    <span>$</span><span class="price">9.99</span>
+                    <button class="shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div id="album4">
+                <h3>Album 4</h3>
+                <div class="image-container">
+                    <img src="./img/Album 4.png" alt="" class="prod-images">
+                </div>
+                <div class="prod-details">
+                    <span>$</span><span class="price">19.99</span>
+                    <button class="shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="merch" class="container">
+        <h2>MERCH</h2>
+        <div id="merch-content">
+            <div id="T-Shirt">
+                <h3>T-Shirt</h3>
+                <div class="image-container">
+                    <img src="./img/Shirt.png" alt="" class="merch-images">
+                </div>
+                <div class="prod-details">
+                    <span>$</span><span class="price">19.99</span>
+                    <button class="shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div id="album1">
+                <h3>Coffee Cup</h3>
+                <div class="image-container">
+                    <img  src="./img/Cofee.png" alt="" class="merch-images">
+                </div>
+                <div class="prod-details">
+                    <span>$</span><span class="price">6.99</span>
+                    <button class="shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section id="music" class="container">
+        <h2>MUSIC AND MERCH</h2>
+        <div id="music-content"></div>
+    </section>
+    <button class="cart-btn-bottom">
+        <a href="#cart">See The Cart</a>
+    </button>
+    <section id="notification">
+    </section>
+    <footer>
+        <div class="footer-title">The Generics</div>
+        <div class="footer-icons">
+            <ul>
+                <li><a  href="https://www.youtube.com"><img class="footer-img" src="../img/6260efc8fc9a9002669d2f4ad9956cc0.jpg" alt="Youtube Logo"></a></li>
+                <li><a  href="https://spotify.com"><img class="footer-img" src="../img/Spotify Logo.png" alt="Spotify Logo"></a></li>
+                <li><a  href="https://facebook.com"><img class="footer-img" src="../img/Facebook Logo.png" alt="Facebook Logo"></a></li>
+            </ul>
+        </div>
+       
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"></script>
+    <script src="ecom.js"></script>
+</body>
+
+</html>
